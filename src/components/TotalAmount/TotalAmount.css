@@ -1,0 +1,18 @@
+/* src/components/TotalAmount.css */
+.total-section {
+    background-color: #4a154b;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.total-label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.total-amount {
+    font-size: 2.5rem;
+    font-weight: 600;
+}

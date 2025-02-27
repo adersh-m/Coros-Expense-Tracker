@@ -1,0 +1,76 @@
+/* src/components/ExpenseForm.css */
+.form-section {
+    flex: 1;
+    max-width: 40%;
+}
+
+.add-expense-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.form-title {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.category-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.add-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a154b;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: auto;
+}
+
+.add-btn:hover {
+    background-color: #3b1139;
+}
+
+@media (max-width: 900px) {
+    .form-section {
+        max-width: 100%;
+    }
+}

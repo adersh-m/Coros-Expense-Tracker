@@ -1,0 +1,54 @@
+/* src/App.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    
+    background-color: #f0f0f0;
+    margin: 0;
+    padding-top: 60px; /* Push content below the header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 90vw;
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
